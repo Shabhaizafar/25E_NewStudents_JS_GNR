@@ -1,0 +1,43 @@
+Web Development :
+    HTML  : 
+        create : structure
+
+    CSS   : 
+        design : structure
+
+    JS    : JavaScript
+        add functionality : structure
+
+
+
+
+E  vs  Netscape 
+        Scripting Language : MO >> LS  >> JS(Microsoft)
+
+
+ECMA  : ES1 
+    js : ECMAScript
+
+    ES2 
+
+
+    ES5,ES6(2015)
+    ES7(2016)
+
+
+JS vs Java 
+
+
+
+Founder of JS  : 
+which year  : 
+best version of JS  : 
+how to implment  JS :       
+
+
+
+
+
+
+
+
