@@ -64,9 +64,9 @@ console.timeEnd("Time ");
 | `console.info()`           | Outputs an informational message (same as `log()` in most browsers).          |
 | `console.warn()`           | Outputs a warning message.                                                    |
 | `console.error()`          | Outputs an error message.                                                     |
-| `console.debug()`          | Outputs a debug message (may not appear in default console view).             |
+    
 | `console.trace()`          | Outputs a stack trace to the console.                                         |
-| `console.assert()`         | Logs a message only if the assertion is `false`.                              |
+    
 | `console.clear()`          | Clears the console.                                                           |
 | `console.count()`          | Logs the number of times that this count has been called with the same label. |
 | `console.countReset()`     | Resets the counter for a specific label.                                      |
@@ -77,11 +77,11 @@ console.timeEnd("Time ");
 | `console.time()`           | Starts a timer with a specific label.                                         |
 | `console.timeEnd()`        | Stops the timer and logs the elapsed time.                                    |
 | `console.timeLog()`        | Logs the current value of a timer without stopping it.                        |
-| `console.dir()`            | Displays an interactive list of an object’s properties.                       |
-| `console.dirxml()`         | Displays an XML/HTML element representation.                                  |
-| `console.profile()`        | Starts a performance profile (in supported dev tools).                        |
-| `console.profileEnd()`     | Stops the performance profile.                                                |
-| `console.timeStamp()`      | Adds a timestamp to the browser's performance timeline.                       |
+    
+    
+    
+    
+    
 
 
 */
