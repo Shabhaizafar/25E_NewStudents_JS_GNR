@@ -9,23 +9,23 @@ Syntax :
 */
 
 
-//  2. Expression Function 
+//  3. Arrow Function 
     // a. without argument and without return type
 
-        // var sayHello = function (){
+        // var sayHello =  () => {
         //     console.log("Hello Everyone Welcome JS !");
         // }
         // sayHello();
 
     // b. with argument and without return type
-        // let addition = function (a,b){   // a , b   Perameters
+        // let addition =  (a,b)=>{   // a , b   Perameters
         //     console.log("Addition : ",a+b);
         // }
         // addition(12,13);    //12 , 13  Arguments
 
     // c. without argument and with return type
 
-            // const valueofPi = function (){
+            // const valueofPi =  ()=>{
             //     return 3.14;
             // }
             // // i. store and use 
@@ -37,7 +37,7 @@ Syntax :
 
     // d. with argument and with return type
 
-        // var result =function (marks){
+        // var result = (marks)=>{
         //     if(marks>33)
         //         return "Pass";
         //     return "Fail";
