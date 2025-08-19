@@ -45,3 +45,28 @@ Syntax :
         // var output = result(50);
         // console.log(output);
         // console.log(result(22));
+
+
+
+
+        // var result = marks =>{
+        //     if(marks>33)
+        //         return "Pass";
+        //     return "Fail";
+
+        //     //100
+        //     console.log("wertyui");
+        // }
+        // var output = result(50);
+        // console.log(output);
+
+
+        //  var sayHello =  () => {
+        //     console.log("Hello Everyone Welcome JS !");
+        // }
+        // sayHello();
+
+        // var sayHello =  n => 
+        //     return n;
+        
+        // console.log(sayHello(12));
