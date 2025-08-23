@@ -108,6 +108,7 @@ d) With argument & with return type
 
 // 9) Write a function expression that returns the nth Fibonacci number.
 
+/*
 var Fibonacci = function (n){
     var a = 0;
     var b = 1;
@@ -123,30 +124,17 @@ var Fibonacci = function (n){
     }
     return a;
 }
+*/
+
 // console.log(Fibonacci(10));
 
 // 0 1 1 2 3 5 8 13 21 34 55
-/*
 
-# **3. Arrow Functions (10 Questions)**
 
-a) Without argument & without return type
 
-1. Write an arrow function to print “Welcome to Arrow Functions”.
-2. Write an arrow function to print numbers from 10 to 1.
 
-b) With argument & without return type
-3) Write an arrow function that prints a string given as input.
-4) Write an arrow function that prints the cube of a number.
 
-c) Without argument & with return type
-5) Write an arrow function that returns a random number.
-6) Write an arrow function that returns today’s weekday name.
 
-d) With argument & with return type
-7) Write an arrow function that returns the sum of two numbers.
-8) Write an arrow function to return the reverse of a number.
-9) Write an arrow function that checks if a number is palindrome.
-10) Write an arrow function that returns the average of numbers in an array.
 
-*/
+
+
