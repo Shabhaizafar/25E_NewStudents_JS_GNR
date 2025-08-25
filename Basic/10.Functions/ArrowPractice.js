@@ -68,34 +68,59 @@
 
 // 7. For a restaurant app, write an arrow function that takes an array of menu items (name, category) and groups them into an object with categories as keys and arrays of item names as values.
 
-var arr = [
-    { "Paneer-Masala": "Sabji" },
-    { "Moctail": "Drink" },
-    { "Cheese-Paneer": "Sabji" }
-];
-var restaurant_app = (arr) => {
-    var temp = {};
+// var arr = [
+//     { "Paneer-Masala": "Sabji" },
+//     { "Moctail": "Drink" },
+//     { "Cheese-Paneer": "Sabji" }
+// ];
+// var restaurant_app = (arr) => {
+//     var temp = {};
 
-    for (const key in arr) {
-        for (const key2 in arr[key]) {
-            temp[arr[key][key2]] = [];
-        }
-    }
+//     for (const key in arr) {
+//         for (const key2 in arr[key]) {
+//             temp[arr[key][key2]] = [];
+//         }
+//     }
 
-    for (const key in temp) {
-        for (const key2 in arr) {
-            for (const key3 in arr[key2]) {
-                if(key == arr[key2][key3])
-                    temp[key].push(key3);
-            }
-        }
-    }
-    console.log(temp);
-}
+//     for (const key in temp) {
+//         for (const key2 in arr) {
+//             for (const key3 in arr[key2]) {
+//                 if(key == arr[key2][key3])
+//                     temp[key].push(key3);
+//             }
+//         }
+//     }
+//     console.log(temp);
+// }
 
 
 
-restaurant_app(arr);
+// restaurant_app(arr);
 
 
 // 9. In an employee management system, write an arrow function that takes an array of employee objects (name, role, salary) and returns the names of employees whose role is "Manager" in a single string separated by commas.
+
+var employees = [
+    { fname : "Ajay", role : "Manager", salary : 30000},
+    { fname : "Rajesh", role : "Developer", salary : 25000},
+    { fname : "Vijay", role : "Developer", salary : 50000},
+    { fname : "Raj", role : "Manager", salary : 40000}
+];
+var employee_management_system = (emp,role) =>{
+    var temp = "";
+    for (const element of emp) {
+        if(element.role == role){
+            temp+=element.fname;
+            temp+=',';
+            }
+    }
+    return temp.slice(0,temp.length-1);
+}
+
+console.log(employee_management_system(employees,"HR"));
+
+
+
+
+
+
