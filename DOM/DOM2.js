@@ -27,3 +27,20 @@ document.getElementsByTagName('h2')[0].style.backgroundColor = "red";
 document.getElementsByClassName('heading2')[0].style.color = "blue";
 document.getElementById('id1').style.fontSize = "100px";
 
+
+
+
+
+
+
+
+
+document.getElementsByTagName('h1')[0].innerHTML = "Royal Tectnosoft p ltd";
+
+document.body.style.backgroundColor = `rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`;
+
+
+
+
+
+
