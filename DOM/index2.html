@@ -4,16 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        section:first-child{
+
+        }
+        img{
+            width: 50%;
+        }
+        div{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 1fr auto;
+            padding: 50px;
+            text-align: center;
+        }
+        button{
+            padding: 10px 20px;
+
+        }
+    </style>
 </head>
 <body>
     <div>
-        
+        <section>
+            <img src="https://www.w3schools.com/js/pic_bulboff.gif" alt="">
+        </section>
+        <section>
+            <button>ON</button>
+            <button>OFF</button>
+        </section>
     </div>
     <!-- <h1>sdfg</h1> -->
     <!-- <a href="https://www.google.com">HEHE</a> -->
     <!-- <br> -->
     <!-- <img src="https://imgs.search.brave.com/lmMQvdKPcCFRZ6CKp4X6xCMPOQiNwVM7No3jviY_V7M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Y1LzUy/L2U4L2Y1NTJlODZl/ZjI0YzY4M2IzZjM1/YzZhYmY1NzA0YjBm/LmpwZw" alt="" width="300px"> -->
     <!-- <script src="DOM3.js"></script> -->
-
+    <script>
+        document.getElementsByTagName('button')[0].onclick = function (){
+            document.getElementsByTagName('img')[0].attributes.src.value = "https://www.w3schools.com/js/pic_bulbon.gif"
+        }
+        document.getElementsByTagName('button')[1].onclick = function (){
+            document.getElementsByTagName('img')[0].attributes.src.value = "https://www.w3schools.com/js/pic_bulboff.gif"
+        }
+    </script>
 </body>
 </html>
