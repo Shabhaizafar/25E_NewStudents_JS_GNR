@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 50px;
+        }
+        div{
+            background-color: darkcyan;
+            color: white;
+            font-family: verdana;
+            font-size: 24px;
+            padding: 20px;
+        }
+        button{
+            font-family: verdana;
+            background-color: darkslategrey;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+        }
+
+        .newclass{
+            color: white;
+            background-color: navy;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="class1">
+        CSS
+    </div>
+    <button>Click Here</button>
+    <script>
+        document.getElementsByTagName('button')[0].onclick = function (){
+            // console.log(document.getElementsByTagName('div')[0]);
+
+            // How to Access element class using JS : 
+            // console.log(document.getElementsByTagName('div')[0].classList);
+            
+            // How to Add New Class in a Element : 
+            // document.getElementsByTagName('div')[0].classList.add('newclass');
+
+            // How To Check Class Exist or not : 
+            // console.log(document.getElementsByTagName('div')[0].classList.contains('royal'));
+
+            // if(document.getElementsByTagName('div')[0].classList.contains('newclass')){
+            //     // How to Remove Class :
+            //     document.getElementsByTagName('div')[0].classList.remove('newclass');
+            // }else{
+            //     document.getElementsByTagName('div')[0].classList.add('newclass');
+            // }
+
+            // document.getElementsByTagName('div')[0].classList.toggle('newclass');
+        }
+    </script>
+</body>
+</html>
+
